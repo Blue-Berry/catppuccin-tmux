@@ -154,8 +154,8 @@ main() {
 
   set status-right "${right_column1},${right_column2}"
 
-  setw window-status-format "${window_status_format}"
-  setw window-status-current-format "${window_status_current_format}"
+  setw window-status-format "${show_directory_in_window_status_current}"
+  setw window-status-current-format "${show_directory_in_window_status_current}"
 
   # --------=== Modes
   #
