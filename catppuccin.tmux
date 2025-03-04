@@ -156,6 +156,7 @@ main() {
 
   setw window-status-format "${show_directory_in_window_status_current}"
   setw window-status-current-format "${show_directory_in_window_status_current}"
+  setw -g window-status-format "${show_directory_in_window_status_current}"
 
   # --------=== Modes
   #
